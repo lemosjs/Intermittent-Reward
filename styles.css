@@ -1,0 +1,102 @@
+body{
+    background-color: #000;
+}
+
+
+.main {
+    text-align: center;
+    
+}
+
+h4{
+    font-size: 20px;
+    text-align: center;
+    opacity: 0.1;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 300;
+    color: #fff;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.button-main{
+    background-color: #fff;
+    color: #000;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 300;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 10px;
+   
+}
+
+.button-main[disabled]:hover{
+    background-color: rgb(56, 34, 34);
+    color: #fff;
+}
+
+
+
+.button-main[disabled]{
+    background-color: rgb(88, 42, 42);
+    cursor: not-allowed;
+    color: #fff;
+}
+
+
+.button-main:hover{
+    background-color: rgb(216, 18, 18);
+    color: #fff;
+}
+
+    
+.stars {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+   
+}
+
+
+
+.stars > img {
+    width: 100px;
+    height: 100px;
+    margin: 0 10px;
+    transition: all ease-in;
+    transform: translateY(0);
+
+}
+
+.animation {
+    transition: ease-in;
+    transform: translateY(0);
+}
+
+
+
+
+h1{
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 300;
+    color: #fff;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+h2{
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 300;
+    color: #fff;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
