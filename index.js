@@ -21,7 +21,7 @@ function addStar(){
 
 
 
-    if (chance < 0.5) {
+    if (chance < 0.05) {
 
       
         
@@ -32,7 +32,7 @@ function addStar(){
             clearInterval(timerInterval)
             timer.innerHTML = "Congrats! Try again!"
             var star = document.createElement("img");
-            
+
             star.src= "./images/star.png";
             document.getElementsByClassName("stars")[0].appendChild(star);
             star.classList.add('animation')
