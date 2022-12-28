@@ -21,11 +21,7 @@ function addStar(){
 
 
 
-    if (chance < 0.05) {
-
-      
-        
-
+    if (chance < 0.5) {
 
         setTimeout(() => {
             button.disabled = false
@@ -35,6 +31,7 @@ function addStar(){
 
             star.src= "./images/star.png";
             document.getElementsByClassName("stars")[0].appendChild(star);
+
             star.classList.add('animation')
     
         }, 1000 * 5);
